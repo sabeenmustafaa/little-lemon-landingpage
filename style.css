@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+body {
+  background-color: #edefee;
+  font-family: "Poppins", sans-serif;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+div {
+  width: 100%;
+}
+h1 {
+  font-size: 3rem;
+  margin: 0.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #103817;
+}
+
+p {
+  font-size: 1rem;
+}
+
+header img {
+  width: 30%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav ul {
+  padding: 0px;
+  list-style: none;
+  text-align: center;
+  background: #6e8f74;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+nav li {
+  display: inline-block;
+  padding: 1vw 5vw;
+}
+
+nav li a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 600;
+}
+
+nav li:hover,li:hover a {
+  background: #a1b9a6;
+  color: #103817;
+}
+
+section {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+article {
+  flex: 1;
+  text-align: justify;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 20px;
+  background: #ccdfcf;
+}
+
+.section-posts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin: 2rem 0;
+}
+
+.post-articles {
+  margin: 0px;
+  text-align: justify;
+  padding: 20px;
+  border-radius: 20px;
+  background: #ccdfcf;
+}
+
+.post-articles a {
+  display: block;
+  width: 100%;
+  text-align: right;
+  text-decoration: none;
+  color: #245f2f;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.post-articles a:hover {
+  color: #103817;
+  font-weight: 600;
+}
+
+.adbanner article {
+  background: none;
+}
+
+.adbanner {
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+  background: #000;
+  background-image: url(images/adbanner5.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  color: #fff;
+}
+
+.articleImg {
+  width: 100%;
+  height: 40vh;
+}
+
+.articleImg img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  border-radius: 5px;
+}
+
+.post-articles:hover {
+  cursor: default;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  display: flex;
+}
+
+footer div {
+  flex: 1;
+}
+
+footer div img {
+  width: 10vh;
+  display: block;
+}
+
+footer div p {
+  text-align: right;
+}
